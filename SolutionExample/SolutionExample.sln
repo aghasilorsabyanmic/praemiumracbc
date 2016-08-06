@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7B6CE45C-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionExample.ConsoleApplication", "src\SolutionExample.ConsoleApplication\SolutionExample.ConsoleApplication.csproj", "{DE418BE8-7C1A-4D3F-85E4-940250CFD9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionExample.ConsoleApplication.Text", "test\SolutionExample.ConsoleApplication.Text\SolutionExample.ConsoleApplication.Text.csproj", "{7472BB85-EC9C-4541-9C42-B566CC381B59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionExample.ConsoleApplication.Test", "test\SolutionExample.ConsoleApplication.Text\SolutionExample.ConsoleApplication.Test.csproj", "{7472BB85-EC9C-4541-9C42-B566CC381B59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

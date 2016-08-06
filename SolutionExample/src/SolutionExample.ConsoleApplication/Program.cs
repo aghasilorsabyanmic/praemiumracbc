@@ -11,5 +11,11 @@ namespace SolutionExample.ConsoleApplication
         static void Main(string[] args)
         {
         }
+
+        public static void test() { }
+
+        private int _x;
+
+        public int myProperty { get; set; }
     }
 }
