@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{5E1AA7C8-69D5-4AEC-8315-BCB444F1D7FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{150EA5B6-CEEA-4EB1-9118-BDE1D387B2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E1AA7C8-69D5-4AEC-8315-BCB444F1D7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E1AA7C8-69D5-4AEC-8315-BCB444F1D7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E1AA7C8-69D5-4AEC-8315-BCB444F1D7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150EA5B6-CEEA-4EB1-9118-BDE1D387B2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150EA5B6-CEEA-4EB1-9118-BDE1D387B2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150EA5B6-CEEA-4EB1-9118-BDE1D387B2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150EA5B6-CEEA-4EB1-9118-BDE1D387B2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
