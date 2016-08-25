@@ -15,7 +15,7 @@ namespace DelegatesMathApplication
             var g2 = Calculate(0.0, 2 * Math.PI, 100, x => Math.Sin(2 * x));
             var g3 = Calculate(-10.0, 10.0, 50, x => 5 * x * x + 2 * x + 1);
 
-            Save(g1, Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "sin.csv");
+            Save(g1, Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "sin.csv"));
         }
 
         static IEnumerable<Point> Calculate(double xMin, double yMin, int pointsCount, Func<double, double> function)

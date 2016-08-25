@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Printer.cs" />
     <Compile Include="PrintFailedEventArgs.cs" />
+    <Compile Include="PrintFailReason.cs" />
     <Compile Include="PrintingEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
