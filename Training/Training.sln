@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{5BFCDED2-52B0-4A7E-86C6-CFE46249A9D8}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{A0BD7C73-BD5C-47B9-8CE8-6F9BFB373C6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesMathApplication", "DelegatesMathApplication\DelegatesMathApplication.csproj", "{62373611-4C6B-4CE5-AB88-69AEA6C4F3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncProgramming", "AsyncProgramming\AsyncProgramming.csproj", "{ACFDDEAA-C139-4ADE-B849-C75B0129537C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{62373611-4C6B-4CE5-AB88-69AEA6C4F3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62373611-4C6B-4CE5-AB88-69AEA6C4F3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62373611-4C6B-4CE5-AB88-69AEA6C4F3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFDDEAA-C139-4ADE-B849-C75B0129537C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFDDEAA-C139-4ADE-B849-C75B0129537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFDDEAA-C139-4ADE-B849-C75B0129537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFDDEAA-C139-4ADE-B849-C75B0129537C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
