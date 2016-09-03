@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Exchange.Data;
 
-namespace Exchange.Client.Console
+namespace Exchange.Client.ConsoleApplication
 {
     class Program
     {
         static void Main(string[] args)
         {
             DoWork();
+
+            Console.ReadKey();
         }
 
         static async void DoWork()
@@ -21,9 +23,10 @@ namespace Exchange.Client.Console
 
             var result = await ex.Get();
 
-            System.Console.WriteLine(result.Keys.Count);
-
-            System.Console.ReadKey();
+            foreach (var item in result)
+            {
+                Console.WriteLine($"{item.Key} - {item.Value}");
+            }
         }
     }
 }
