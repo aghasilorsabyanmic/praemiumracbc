@@ -21,7 +21,7 @@ namespace Exchange.Client.ConsoleApplication
             var uri = new Uri("http://cb.am/latest.json.php");
             var ex = new ExchangeManager(uri);
 
-            var result = await ex.Get();
+            var result = await ex.Get("usd");
 
             foreach (var item in result)
             {

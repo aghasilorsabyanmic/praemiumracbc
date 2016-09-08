@@ -19,7 +19,7 @@ namespace Exchange.Data
 
         public async Task<Dictionary<string, decimal>> Get(string currency = "")
         {
-            var url = string.IsNullOrWhiteSpace(currency) ? string.Empty : $"?currency={currency}";
+            var url = string.IsNullOrWhiteSpace(currency) ? string.Empty : $"?currency={currency.Trim().ToUpper()}";
 
             var jsonString = await client.GetStringAsync(url);
 
