@@ -10,17 +10,18 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <ComboBox Height="40" Width="100" Name="Combo" Grid.Row="0" HorizontalAlignment="Left" />
-        <Button Height="40" Width="100" Content="Refresh" HorizontalAlignment="Right" Grid.Row="0" Name="ButtonRefresh"/>
-        <StatusBar HorizontalAlignment="Stretch" Height="30" Grid.Row="2">
-            <Label x:Name="label" Content=""/>
+        <Button Height="40" Width="100" Content="Refresh" HorizontalAlignment="Right" Grid.Row="0" Name="ButtonRefresh" Click="ButtonRefresh_Click"/>
+        <StatusBar HorizontalAlignment="Stretch" Height="50" Grid.Row="2">
+            <Label x:Name="label" Content="" />
         </StatusBar>
         <ListView x:Name="listView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Grid.Row="1" >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn Header="Currency" Width="100" DisplayMemberBinding="{Binding Currency}"/>
+                    <GridViewColumn Header="Rate" Width="200" DisplayMemberBinding="{Binding Rate}"/>
                 </GridView>
             </ListView.View>
         </ListView>

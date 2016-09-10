@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Exchange.Data
@@ -17,13 +18,15 @@ namespace Exchange.Data
 
         private HttpClient client = new HttpClient();
 
-        public async Task<Dictionary<string, decimal>> Get(string currency = "")
+        public async Task<Dictionary<string, decimal>> Get(CancellationToken cancelationToken, string currency = "")
         {
             var url = string.IsNullOrWhiteSpace(currency) ? string.Empty : $"?currency={currency.Trim().ToUpper()}";
 
             var jsonString = await client.GetStringAsync(url);
 
-            var dictionary = await Task.Run(() => JsonConvert.DeserializeObject<Dictionary<string, decimal>>(jsonString));
+            var dictionary = await Task.Run(
+                () => JsonConvert.DeserializeObject<Dictionary<string, decimal>>(jsonString),
+                cancelationToken);
 
             return dictionary;
         }
